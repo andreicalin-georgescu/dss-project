@@ -1,0 +1,93 @@
+@font-face {
+	font-display: swap;
+}
+
+#jumbo1 {
+	text-align: left;
+	background-image: url('../images/navbar.jpg');
+	background-size: 100% 100%;
+	margin: 0px;
+	color: #fff;
+}
+
+#jumbo1 h1 {
+	font-family: 'DM Sans', serif;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 3.5rem;
+}
+
+#jumbo1 p {
+	font-family: 'Montserrat', serif;
+	font-size: 1.3rem;
+}
+
+#jumbo2 h1 {
+	font-family: 'DM Sans', serif;
+	font-size: 4rem;
+}
+
+#jumbo2 p {
+	text-align: justify;
+	color: #5a5a5a;
+}
+
+#jumbo2 {
+	padding-top: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#jumbo2 .col-md-4 {
+	margin-top: 35px;
+
+}
+
+.jumbotron {
+	background-color: white;
+	border-radius: 0px !important;
+}
+
+.jumbotron h1 {
+	color: #5a5a5a;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+.jumbotron hr {
+	width: 75%;
+	height: 3px;
+	border: 0 none;
+	background: #5a5a5a;
+	padding-bottom: 0px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.jumbotron img {
+	width: 230px;
+	height: auto;
+	vertical-align: middle;
+	border: 10px solid #eee;
+	border-radius: 50px;
+	margin-bottom: 15px;
+}
+
+.jumbotron p {
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .jumbotron {
+    margin-top: 25px;
+  }
+  #jumbo2 p {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .navbar-right {
+    visibility: hidden;
+  }
+}

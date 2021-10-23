@@ -1,0 +1,115 @@
+/*--Navbar--*/
+
+.navbar-default {
+	background-color: #6c8c45;
+	margin-bottom: 0px;
+	font-family: 'Montserrat', serif;
+}
+
+.navbar-default div.navbar-collapse {
+	border-top: none;
+	box-shadow: none;
+}
+
+.navbar-default .navbar-toggle {
+	font-style: oblique;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: white;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+	background-color: #6c8c45;
+}
+
+.navbar a {
+	font-weight: normal;
+	color: #fff;
+	text-decoration:none;
+}
+
+.navbar-default .navbar-brand {
+ font-style: normal;
+}
+
+.navbar-default .navbar-brand:hover ,.navbar-default .navbar-brand:focus {
+  font-style: oblique;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .navbar li {
+    padding-left: 15px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+	.jumbotron a {
+		padding: 1px 4px 1px 4px;
+	}
+}
+
+/*--Footer--*/
+
+footer hr {
+  width: 100%;
+  height: 1px;
+  border: 0 none;
+  background: #ddd;
+}
+
+footer {
+  background-image: url('../images/footer.jpg');
+  background-size: 100% 100%;
+  padding-bottom: 80px;
+  font-family: 'Montserrat', serif;
+}
+
+.fa-stack.fa-2x {
+	color: #5a5a5a;
+	font-size: 1.9rem;
+}
+
+.fa-stack:after .fa-circle {
+	color: #5a5a5a;
+}
+.footer a:visited {
+	color: #5a5a5a;
+}
+
+@media (max-width: 425px) {
+	footer {
+		padding-left: 20%;
+	}
+}
+
+@media (max-width: 375px) {
+	footer {
+		padding-left: 15%;
+	}
+}
+
+@media (max-width: 320px) {
+	footer {
+		padding-left: 10%;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.fa-stack:hover .fa-circle {
+		color: #e0be12;
+	}
+}
