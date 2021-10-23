@@ -28,6 +28,10 @@
 	font-size: 4rem;
 }
 
+#jumbo2 h2 {
+	font-size: 3.0rem;
+}
+
 #jumbo2 p {
 	text-align: justify;
 	color: #5a5a5a;
@@ -67,11 +71,9 @@
 }
 
 .jumbotron img {
-	width: 230px;
+	width: 600px;
 	height: auto;
 	vertical-align: middle;
-	border: 10px solid #eee;
-	border-radius: 50px;
 	margin-bottom: 15px;
 }
 
