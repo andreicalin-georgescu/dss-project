@@ -71,9 +71,9 @@
 }
 
 .jumbotron img {
-	width: 600px;
+	width: 30rem;
 	height: auto;
-	vertical-align: middle;
+	vertical-align: left;
 	margin-bottom: 15px;
 }
 
