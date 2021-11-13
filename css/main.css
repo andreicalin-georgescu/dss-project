@@ -33,6 +33,14 @@ ul.timeline > li:before {
     z-index: 400;
 }
 
+#wireframe {
+	display: block;
+	max-width: 100%;
+	min-width: 700px;
+	min-height: 400px;
+	height: 100%;
+}
+
 #jumbo1 {
 	text-align: left;
 	background-image: url('../images/navbar.jpg');
