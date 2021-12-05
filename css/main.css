@@ -41,6 +41,11 @@ ul.timeline > li:before {
 	height: 100%;
 }
 
+#IG_story {
+	height: 470px;
+	width: auto;
+}
+
 #jumbo1 {
 	text-align: left;
 	background-image: url('../images/navbar.jpg');
