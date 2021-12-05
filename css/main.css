@@ -46,6 +46,21 @@ ul.timeline > li:before {
 	width: auto;
 }
 
+#hotjar_view {
+	height: 470px;
+	width: auto;
+}
+
+#updated_page {
+	height: 470px;
+	width: auto;
+}
+
+#devices {
+	height: 470px;
+	width: auto;
+}
+
 #jumbo1 {
 	text-align: left;
 	background-image: url('../images/navbar.jpg');
