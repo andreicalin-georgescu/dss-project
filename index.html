@@ -176,6 +176,18 @@
 									<p>The process of gathering data to define the size of our target market, the market share of our competitors and the expected marked value.
 									</p>
 								</li>
+								<li>
+									<a href="#Milestone_7">Milestone 7</a>
+									<p class="float-right">10 January, 2022</p>
+									<p>The process of building the MVP, adjusting it according to user cases and improving the user experience
+									</p>
+								</li>
+								<li>
+									<a href="#Milestone_8">Milestone 8</a>
+									<p class="float-right">10 January, 2022</p>
+									<p> How we planned the first stages of user testing for the actual application MVP.
+									</p>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -1439,6 +1451,231 @@
 					that their spending habits could be a major benefit our application will have over the competition. Since their habits will revolve around being socially active, promoting advertisements curated to their particular momentary interest will increase the efficiency of any digital ad campaign.
 				</p>
 				
+				<button type="button" class="btn btn-outline-info"><a href="#timeline" class="text-reset text-decoration-none"><em>Go to timeline</em></a></button>
+				
+				<p id="Milestone_7" title="Milestone7"><em>Milestone 7</em></a>
+				
+				<h2>Revising our Findings</h2>
+				<p>
+					Based on our research through questionnaires we profiled several personas of possible users for our Clique App based on age and evolution of interests at different stages in life. But there is one trait that can be seen as dominant throughout. Some people like to initiate happenings, and we will refer to them as ‘party starters’ , others act more as valuators.
+				</p>
+				<p>
+					Roles may change in time and Clique App aims in its evolution to make it so fun that anyone becomes a party starter of some sort. However, for the MVP it became clear from our research that we should initially focus on the party starters – those people who usually suggest to their friends or acquaintances to go somewhere or do something. 
+				</p>
+				<p>
+					They are also pivotal in bringing people to Clique since their influence is exponential once they find our app as useful for initiating meetings/events.
+				</p>
+
+				<h2>Focusing on the Party Starters</h2>
+				
+				<p>From our in-depth interviews it resulted that most of the times the party starters know what they want to do, they only need to easily build an invite and motivate the others to join in.</p>
+				<p>In our Clique Application we will focus to make it easy and fun for party starters to gather people around a going out idea! </p>
+				<p>The steps for a party starter to gather friends around an idea are:</p>
+				<ol>
+					<li>
+						Find a place from Google Maps where to invite people;
+					</li>
+					<li>
+						Record a video invite to stir your friends’ interest (limited to 15s) – with yourself, or your voice as narrator;
+						<ul>
+							<li>
+								In later versions  we will focus to directly add metadata on the video: factual  (date and hour, place, other requirements) + creative (creative options to individualize the video invite).
+							</li>
+						</ul>
+					</li>
+					<li>
+						Send the video invite to a list of people – inside the app or via WhatsApp, Messages etc.
+						<ul>
+							<li>
+								Invitees can see the video following a link regardless if they are on Clique or not. <strong>However, to react to the invite</strong> they need to download and register in Clique App. 
+							</li>
+							<li>
+								Possible reactions to the invite: coming, maybe, decline. In later stages: possibility to edit the video invite creatively to mark your response or to further share it.
+							</li>
+						</ul>
+					</li>
+					<li>
+						Automatically open a group chat (similar to other social networks' layout) where all the people that validated the invite (‘coming’) are included and can ask for details or keep track of the outcome;
+						<ul>
+							<li>
+								‘Maybe’ sets a reminder in that person’s Clique calendar. (In later stages it may be linked with Google calendar or other calendars of user’s choice);
+							</li>
+							<li>
+								Chat groups are automatically dissolved 1 day after the event happens. There will be an opt out button if you want to make the group permanent;
+							</li>
+						</ul>
+					</li>
+					<li>
+						<p>
+							In terms of building intelligence for a post MVP stage of the app:
+						</p>
+						<p>
+							Right after signing up in the app, people can opt to specify their main interests from a list and also their favourite places to go out by pinning them on Google Maps  … or not.  This will allow us to build a recommended area through which we can communicate events open to the general public.  
+						</p>
+					</li>
+				</ol>
+
+				<h3>Notes on the validity of each of the  steps:</h3>
+				<ol>
+					<li>
+						A place that people like or are interested in discovering appeared from our findings to be the best liason for any going out activity.
+					</li>
+					<li>
+						<p>
+							The video recording of their own message for an invite resulted from our talks with party starters as the easiest to implement and the most personal one. It needs further research and validation in terms of length of video and features to add on.
+						</p>
+
+						<p>
+							For later versions we want to focus on making this item as a main creative hook for the app. For e: you can edit any video invite you received inside Clique, record your own reaction to the initial invite and share the new version further to your Clique.
+							It is a natural consequence of the initial idea: the success of the invite is based on the traction of the initiator to the members of his group.
+						</p>
+					</li>
+					<li>
+						We looked for a powerful way to motivate downloading and registering inside the app for people that are not party starters. This is why we came up with offering recommendations right from the start, so the single user can still enjoy Clique as their "City discovery tool".
+					</li>
+					<li>
+						Ease of communication appeared as one of the biggest hurdles for party starters. They use individual WhatsApp messages, call each individual etc. Automating the process and keeping track of the discussion is paramount. 
+					</li>
+				</ol>
+
+				<h3>Current Status of the MVP</h3>
+				<p>
+					We focused on building the MVP on the iOS platform. We will later migrate the application for Android users, but the limited number of devices we need to test the application on was the main differentiatior.
+				</p>
+				<p>
+					By far, the biggest challenge with the application is building the realtime chat. This has been the main focus of the MVP building process and everything indicates great progress in this regard. The frontend and logic have been put together using Swift and the backend is powered by
+					Google's Firebase.
+				</p>
+				<p>
+				So far the MVP supports:
+				
+				<ol>
+					<li>
+						<div class="row">
+							<div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+								<div class="text-centered">
+									<div class="mb-4 d-flex align-items-center justify-content-center">
+									<p>
+										Signing up either via email or via Facebook. During email signup, the user can also set up a Profile Picture. If the user continues with Facebook, this is set automatically.
+									</p>
+									</div>
+									
+								</div>
+							</div>
+		
+							<div class="col-lg-6 col-md-6 d-flex">
+								<div>
+									<div class="mb-4 d-flex">
+										<img src="images/Pictures-dss/M7/SignUpButtons.png" id="mvp" class="img-fluid.max-width: 100%" >
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+								<div class="text-centered">
+									<div class="mb-4 d-flex align-items-center justify-content-center">
+									<p>
+										Persistent login and caching of data (usernames, conversations, profile pictures) in order to save on database interrogations costs.
+									</p>
+									</div>
+									
+								</div>
+							</div>
+		
+							<div class="col-lg-6 col-md-6 d-flex">
+								<div>
+									<div class="mb-4 d-flex">
+										<img src="images/Pictures-dss/M7/LoginScreen.png" id="mvp" class="img-fluid.max-width: 100%" >
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+								<div class="text-centered">
+									<div class="mb-4 d-flex align-items-center justify-content-center">
+									<p>
+										Conversations screen showing the current users active conversations, as well as the latest message sent in each one.
+									</p>
+									</div>
+									
+								</div>
+							</div>
+		
+							<div class="col-lg-6 col-md-6 d-flex">
+								<div>
+									<div class="mb-4 d-flex">
+										<img src="images/Pictures-dss/M7/ChatScreens.png" id="mvp" class="img-fluid.max-width: 100%" >
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+								<div class="text-centered">
+									<div class="mb-4 d-flex align-items-center justify-content-center">
+									<p>
+										Realtime chatting capabilities between two users. Using Firebase Realtime database, the messages are delivered to the conversation partner.
+									</p>
+									</div>
+									
+								</div>
+							</div>
+
+							<div class="col-lg-6 col-md-6 d-flex">
+								<div>
+									<div class="mb-4 d-flex">
+										<img src="images/Pictures-dss/M7/Conversation.png" id="mvp" class="img-fluid.max-width: 100%" >
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ol>
+
+				<p>
+					For the upcoming weeks, the next steps regarding the MVP are :
+					<ul>
+						<li>
+							Adding the interest selection logic;
+						</li>
+						<li>
+							Adding the place recommendation logic, along with a notification mechanism for people invited;
+						</li>
+						<li>
+							Improving the capabilities of the application allowing users to share photos, videos and locations in their chat conversations.
+						</li>
+					</ul>
+				</p>
+
+				<button type="button" class="btn btn-outline-info"><a href="#timeline" class="text-reset text-decoration-none"><em>Go to timeline</em></a></button>
+
+				<p id="Milestone_8" title="Milestone8"><em>Milestone 8</em></a>
+				
+				<h2>Getting Eyes on The Application</h2>
+
+				<p>At this stage, the application is built using the latests iOS SDKs and can therefore be tested only by a limited number of people. In order to popularize our alpha version of the applications, we plan to leverage our already growing database of interested people.</p>
+
+				<p>First of all, we will select focus groups by sending an email to our contacts, offering them exclusive access to the very first versions of the app. This will provide them with a feel for the application and its intended use, and will offer us important analytics and data in order
+					to make improvements to the application.
+				</p>
+
+				<p>There will also be a general call to action placed on our landing page, notifying visitors that our application has an MVP and they can sign up to be selected to test it. This will both drive up our landing page conversion, as well as provide us with new testing leads for our application.</p>
+
+				<p>In order to actually test the application, users will install the <em>TestFlight</em> application from the iOS AppStore and will report bugs and findings using the proper channels provided by Apple.
+				</p>
+
+				<p>
+					We will continuously assess the number of people who sign up for the first version of the application and once a satisfactory number of users has been achieved we will consider that our "first sale" took place.
+				</p>
+
 				<button type="button" class="btn btn-outline-info"><a href="#timeline" class="text-reset text-decoration-none"><em>Go to timeline</em></a></button>
 			</div>
 		</div>

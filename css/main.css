@@ -41,6 +41,11 @@ ul.timeline > li:before {
 	height: 100%;
 }
 
+#mvp {
+	height: 500px;
+	width: auto;
+}
+
 #IG_story {
 	height: 470px;
 	width: auto;
